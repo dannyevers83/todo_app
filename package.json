@@ -1,0 +1,9 @@
+{
+  "name": "todo_app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "live-server --port=5500 .",
+    "sync": "python3 todo_sync.py"
+  },
+  "devDependencies": {}
+}

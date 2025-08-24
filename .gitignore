@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Python cache
+__pycache__/
+
+# Backup files
+*.bak
+*.backup
+backup_tasks.json
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
