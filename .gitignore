@@ -18,3 +18,10 @@ LEARNING_PLAN.md
 # VS Code workspace settings
 *.code-workspace
 .vscode/
+
+# Learning plan
+LEARNING_PLAN.md
+
+# VS Code workspace settings
+*.code-workspace
+.vscode/
