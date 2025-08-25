@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Todo App</title>
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App - Danny Evers</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header><h1>Todo App</h1></header>
-<main>
-<input type="text" id="taskInput" placeholder="Enter a task">
-<button id="addTaskBtn">Add Task</button>
-<ul id="taskList"></ul>
-</main>
-<footer>Todo App Footer</footer>
-<script src="js/script.js"></script>
+  <header>
+    <h1>Todo App</h1>
+    <p>Welcome, Danny! Your simple task manager.</p>
+  </header>
+
+  <main>
+    <section id="todo-form">
+      <h2>Add a Task</h2>
+      <form>
+        <input type="text" placeholder="Enter your task..." required>
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section id="todo-list">
+      <h2>My Tasks</h2>
+      <ul>
+        <li>Example task</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Danny Evers - Todo App</p>
+  </footer>
 </body>
 </html>
